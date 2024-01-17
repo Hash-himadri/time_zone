@@ -3,15 +3,15 @@ import 'package:time_zone/Pages/Loading.dart';
 import 'package:time_zone/Pages/choose_location.dart';
 import 'Pages/home.dart';
 
-//Trying github
+//Trying github here
 void main() {
   runApp(MaterialApp(
     home: ChooseLocation(),
     // initialRoute: "/",
     routes: {
-      "/" : (context) => Loading(),
-      "/home" : (context) => Home(),
-      "/location" : (context) => ChooseLocation(),
+      "/": (context) => Loading(),
+      "/home": (context) => Home(),
+      "/location": (context) => ChooseLocation(),
     },
   ));
 }
